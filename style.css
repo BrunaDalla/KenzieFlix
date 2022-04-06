@@ -1,0 +1,122 @@
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0;
+    border: none;
+    padding: 0;
+    text-decoration: none;
+    background-color: black; 
+}
+  
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1120px;
+    height: 560px;
+    background-color: #111111;
+    margin: 5% auto;
+}
+
+.logo {
+    width: 229px;
+    height: 68px;
+    margin-top: 15px;
+}
+
+h1 {font-size: 32px;
+    font-weight: 600;
+    color: white;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    margin: 0;
+    width: 700px; 
+    padding: 0;
+}
+
+li {
+    width: 162px;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #9C9C9C;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+
+}
+
+.avatar {
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.avatar:hover {
+    transform: scale(1.5);
+    transition-duration: 0.8s;
+
+}
+
+.mais {
+    background-image: url("./imagens/Frame\ 5.png");
+    width: 140px;
+    height: 140px;
+    background-size:cover;
+    
+    
+}
+
+.mais:hover {
+    background-image: url("./imagens/Frame\ .png");
+    
+}
+
+.lista {
+    width: 140px;
+    height: 140px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.lista:hover {
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+  
+
+.gerenciar_perfis {
+    margin-top: 70px;
+    border: solid white 2px;
+    padding: 14px 44px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    border-radius: 10px;
+}
+
+.gerenciar_perfis:hover {
+    color:black;
+    background-color: white;
+}
+
